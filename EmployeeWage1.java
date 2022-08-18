@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class EmployeeWage1 {
 	private static boolean full_time = false;
-	public static int wage_per_hr=20;
-	public static int full_day_hr=8;
-	public static int part_time_hr=full_day_hr/2;
-	public static int day_of_month=20;
+	public static int wage_per_hr = 20;
+	public static int full_day_hr = 8;
+	public static int part_time_hr = full_day_hr/2;
+	public static int day_of_month = 20;
 	
 	public static void  uc1() 
 	{
-		int a = (int) ((Math.random())*10)%2;
+		int a = (int) ((Math.random()) * 10) % 2;
 		if(a == 1) 
 		{
 			System.out.println("Employee is Present!!");
